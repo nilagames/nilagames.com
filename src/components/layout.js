@@ -5,32 +5,27 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { Box } from '@chakra-ui/core'
 
-import Header from "./header"
-import "../styles/global.css"
+import Header from './header'
 
 const Layout = ({ children, title }) => [
-
-    <>
-    <div className="siteContainer">
+  <>
+    <Box className="siteContainer">
       <Helmet>
         <title>{title}</title>
       </Helmet>
-      <div className='siteContent'>
-      <Header />
-        <main className="main">{children}</main>
-        </div> {/* end of .siteContent */}
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-        </div> {/* end of .siteContainer */}
-    </>
-
+      <Box className="siteContent">
+        <Header />
+        <Box as="main" className="main">
+          {children}
+        </Box>
+      </Box>
+    </Box>
+  </>,
 ]
 
 Layout.propTypes = {

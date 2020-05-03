@@ -1,5 +1,19 @@
----
-title: 404 — Not Found
----
+import { Link } from 'gatsby'
+import SEO from '../components/seo'
+import { List, ListItem, ListIcon, Text, Heading } from '@chakra-ui/core'
 
-The URL you entered in doesn’t appear to exist. Please check it and try again.
+<SEO title="404 — Not Found" keywords={['nilagames', 'Quiz for Kids']} />
+
+<Heading as="h1" my="60px" mx="20px" fontSize="24px" textTransform="uppercase">
+  Nila asks 3 questions
+</Heading>
+
+<List mx="20px" styleType="disc" m={6}>
+  <ListItem>Finding the answer is more important.</ListItem>
+  <ListItem>No answer is perfect.</ListItem>
+  <ListItem>These questions helps you to learn more everyday.</ListItem>
+</List>
+
+<Text mx="20px">
+  Now go back to <Link to="/">home page</Link> to see today's questions.
+</Text>

@@ -1,21 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby MDX Starter`,
-    author: `Doak Heggeness`,
-    description: `An extension of the gatsby starter blog, adding a home page with support for MDX`,
-    siteUrl: `https://gatsby-starter-mdx-website-blog.netlify.com/`,
+    title: `nilagames.com`,
+    author: `Param Harrison`,
+    description: `Nila Games - Quiz app`,
+    siteUrl: `https://nilagames.com/`,
     social: {
-      twitter: `doakheggeness`,
+      twitter: `learnwithparam`,
     },
   },
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,10 +17,10 @@ module.exports = {
       },
     },
     {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      path: `${__dirname}/src/images`,
-      name: `images`,
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name: `images`,
       },
     },
     {
@@ -59,7 +52,7 @@ module.exports = {
             resolve: `gatsby-remark-prismjs`,
           },
         ],
-        plugins: [ `gatsby-remark-images`],
+        plugins: [`gatsby-remark-images`],
       },
     },
     `gatsby-plugin-emotion`,
@@ -145,5 +138,12 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-chakra-ui`,
+      options: {
+        isResettingCSS: true,
+        isUsingColorMode: true,
+      },
+    },
   ],
 }
