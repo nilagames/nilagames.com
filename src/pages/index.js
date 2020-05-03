@@ -22,11 +22,11 @@ const IndexPage = () => {
           <Heading as="h1" fontSize="36px" textTransform="uppercase">
             Building learning habits for kids
           </Heading>
-          <Heading as="h2" fontSize="24px" my={6}>
+          <Text as="p" fontSize="24px" my={6}>
             Nila asks 3 questions everyday to kids. Its helps them to learn
             different topics outside their book. Also helps them to build a
             daily learning habits.
-          </Heading>
+          </Text>
         </Box>
       </Flex>
 
@@ -56,31 +56,37 @@ const IndexPage = () => {
           </Text>
         </Box>
       </Flex>
-
-      <Box my={6}>
-        <List m={6}>
-          <ListItem fontSize="24px" m={3}>
-            <ListIcon icon="check-circle" color="green.300" />
-            Learning everyday is important.
-          </ListItem>
-          <ListItem fontSize="24px" m={3}>
-            <ListIcon icon="check-circle" color="green.300" />
-            The process to find the answer is more important.
-          </ListItem>
-          <ListItem fontSize="24px" m={3}>
-            <ListIcon icon="check-circle" color="green.300" />
-            No answer is perfect.
-          </ListItem>
-          <ListItem fontSize="24px" m={3}>
-            <ListIcon icon="check-circle" color="green.300" />
-            If possible, record and share your answers everyday to youtube.
-          </ListItem>
-          <ListItem fontSize="24px" m={3}>
-            <ListIcon icon="check-circle" color="green.300" />
-            These questions helps to build a learning habit.
-          </ListItem>
-        </List>
-      </Box>
+      <Flex
+        flexDirection="column"
+        minH="400px"
+        justifyContent="center"
+        alignItems="center"
+      >
+        <Box my={6}>
+          <List m={6}>
+            <ListItem fontSize="24px" m={3}>
+              <ListIcon icon="check-circle" color="green.300" />
+              Learning everyday is important.
+            </ListItem>
+            <ListItem fontSize="24px" m={3}>
+              <ListIcon icon="check-circle" color="green.300" />
+              The process to find the answer is more important.
+            </ListItem>
+            <ListItem fontSize="24px" m={3}>
+              <ListIcon icon="check-circle" color="green.300" />
+              No answer is perfect.
+            </ListItem>
+            <ListItem fontSize="24px" m={3}>
+              <ListIcon icon="check-circle" color="green.300" />
+              If possible, record and share your answers everyday to youtube.
+            </ListItem>
+            <ListItem fontSize="24px" m={3}>
+              <ListIcon icon="check-circle" color="green.300" />
+              These questions helps to build a learning habit.
+            </ListItem>
+          </List>
+        </Box>
+      </Flex>
     </Layout>
   )
 }
