@@ -66,10 +66,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-feed`,
-      options: {},
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `nilagames.com`,
