@@ -35,7 +35,7 @@ const IndexPage = () => {
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
             Question 1: Find the missing number in the sequence
           </Heading>
-          <Text fontSize="20px" mt={6}>
+          <Text fontSize="20px" mt={3}>
             3, 6, __, 12, 15, __, 21
           </Text>
         </Box>
@@ -43,7 +43,7 @@ const IndexPage = () => {
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
             Question 2: Improve English
           </Heading>
-          <Text fontSize="20px" mt={6}>
+          <Text fontSize="20px" mt={3}>
             Create 3 separate sentences using word "<strong>tennis</strong>"
           </Text>
         </Box>
@@ -51,37 +51,35 @@ const IndexPage = () => {
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
             Question 3: Improve Listening and Speaking
           </Heading>
-          <Text fontSize="20px" mt={6}>
+          <Text fontSize="20px" mt={3}>
             Find 3 news headlines from today. Talk about it in for 10 mins.
           </Text>
         </Box>
       </Flex>
 
-      <Box mt={6}>
-        <Alert status="info">
-          <List my={3}>
-            <ListItem fontSize="18px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              Learning everyday is important.
-            </ListItem>
-            <ListItem fontSize="18px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              The process to find the answer is more important.
-            </ListItem>
-            <ListItem fontSize="18px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              No answer is perfect.
-            </ListItem>
-            <ListItem fontSize="18px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              If possible, record and share your answers everyday to youtube.
-            </ListItem>
-            <ListItem fontSize="18px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              These questions helps to build a learning habit.
-            </ListItem>
-          </List>
-        </Alert>
+      <Box my={6}>
+        <List m={6}>
+          <ListItem fontSize="24px" m={3}>
+            <ListIcon icon="check-circle" color="green.300" />
+            Learning everyday is important.
+          </ListItem>
+          <ListItem fontSize="24px" m={3}>
+            <ListIcon icon="check-circle" color="green.300" />
+            The process to find the answer is more important.
+          </ListItem>
+          <ListItem fontSize="24px" m={3}>
+            <ListIcon icon="check-circle" color="green.300" />
+            No answer is perfect.
+          </ListItem>
+          <ListItem fontSize="24px" m={3}>
+            <ListIcon icon="check-circle" color="green.300" />
+            If possible, record and share your answers everyday to youtube.
+          </ListItem>
+          <ListItem fontSize="24px" m={3}>
+            <ListIcon icon="check-circle" color="green.300" />
+            These questions helps to build a learning habit.
+          </ListItem>
+        </List>
       </Box>
     </Layout>
   )
