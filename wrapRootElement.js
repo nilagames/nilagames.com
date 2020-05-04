@@ -1,10 +1,10 @@
 import React from 'react'
 import {
   theme,
-  ThemeProvider,
   CSSReset,
   ColorModeProvider,
-} from 'gatsby-plugin-chakra-ui'
+  ThemeProvider,
+} from '@chakra-ui/core'
 
 export const wrapRootElement = ({ element }) => {
   return (
