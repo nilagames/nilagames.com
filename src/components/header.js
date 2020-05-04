@@ -10,7 +10,7 @@ const Header = (props) => {
       justify="space-between"
       wrap="wrap"
       p={4}
-      bg="purple.500"
+      bg="purple.600"
       {...props}
     >
       <Box>
