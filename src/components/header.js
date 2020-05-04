@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { Box, Heading, Flex, Text, Button } from '@chakra-ui/core'
+import React from 'react';
+import { Link } from 'gatsby';
+import { Box, Heading, Flex, Text, Button } from '@chakra-ui/core';
 
-const Header = props => {
+const Header = (props) => {
   return (
     <Flex
       as="nav"
@@ -10,8 +10,7 @@ const Header = props => {
       justify="space-between"
       wrap="wrap"
       p={4}
-      bg="purple.700"
-      color="black"
+      bg="purple.500"
       {...props}
     >
       <Box>
@@ -19,14 +18,14 @@ const Header = props => {
           <Heading
             as="h1"
             size="lg"
-            letterSpacing={'-.1rem'}
+            letterSpacing={'0.1rem'}
             textTransform="uppercase"
           >
             <Link to="">
-              <Text as="span" color="green.300">
+              <Text as="span" color="green.200">
                 Nila
               </Text>{' '}
-              <Text as="span" color="yellow.300">
+              <Text as="span" color="yellow.200">
                 Games
               </Text>
             </Link>
@@ -34,10 +33,10 @@ const Header = props => {
         </Flex>
       </Box>
       <Box ml="auto">
-        <Button variant="ghost">About</Button>
+        <Button variant="solid">About</Button>
       </Box>
     </Flex>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

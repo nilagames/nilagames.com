@@ -1,5 +1,5 @@
-import React from 'react'
-import SEO from '../components/seo'
+import React from 'react';
+import SEO from '../components/seo';
 import {
   List,
   ListItem,
@@ -9,8 +9,8 @@ import {
   Text,
   Alert,
   Heading,
-} from '@chakra-ui/core'
-import Layout from '../components/layout'
+} from '@chakra-ui/core';
+import Layout from '../components/layout';
 
 const IndexPage = () => {
   return (
@@ -30,8 +30,14 @@ const IndexPage = () => {
         </Box>
       </Flex>
 
-      <Flex px={6} flexDirection="column" justifyContent="center">
-        <Box my={3} p={6} bg="red.800" borderRadius="4px">
+      <Flex
+        maxW="720px"
+        mx="auto"
+        px={6}
+        flexDirection="column"
+        justifyContent="center"
+      >
+        <Box my={3} p={6} bg="red.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
             Question 1: Find the missing number in the sequence
           </Heading>
@@ -39,7 +45,7 @@ const IndexPage = () => {
             3, 6, __, 12, 15, __, 21
           </Text>
         </Box>
-        <Box my={3} p={6} bg="green.800" borderRadius="4px">
+        <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
             Question 2: Improve English
           </Heading>
@@ -47,7 +53,7 @@ const IndexPage = () => {
             Create 3 separate sentences using word "<strong>tennis</strong>"
           </Text>
         </Box>
-        <Box my={3} p={6} bg="blue.800" borderRadius="4px">
+        <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
             Question 3: Improve Listening and Speaking
           </Heading>
@@ -88,7 +94,7 @@ const IndexPage = () => {
         </Box>
       </Flex>
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
