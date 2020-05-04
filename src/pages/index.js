@@ -42,7 +42,7 @@ const IndexPage = () => {
             Question 1: Improve english
           </Heading>
           <Text fontSize="20px" mt={3}>
-            Write 3 words with letter <Text as="strong">"O"</Text> create 1
+            Write 3 words with letter <Text as="strong">"O"</Text> and create 1
             sentense for each word.
           </Text>
         </Box>
