@@ -55,10 +55,11 @@ const IndexPage = () => {
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            Question 3: Improve Listening and Speaking
+            Question 3: Improve Listening and Speaking skills
           </Heading>
           <Text fontSize="20px" mt={3}>
-            Find 3 news headlines from today. Talk about it in for 10 mins.
+            Find 3 news headlines from today. Talk about it for 10 mins as a
+            video.
           </Text>
         </Box>
       </Flex>
