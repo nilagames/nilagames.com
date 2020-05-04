@@ -7,7 +7,7 @@ import {
   Flex,
   Box,
   Text,
-  Alert,
+  Image,
   Heading,
 } from '@chakra-ui/core';
 import Layout from '../components/layout';
@@ -39,28 +39,37 @@ const IndexPage = () => {
       >
         <Box my={3} p={6} bg="red.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            Question 1: Find the missing number in the sequence
+            Question 1: Improve english
           </Heading>
           <Text fontSize="20px" mt={3}>
-            3, 6, __, 12, 15, __, 21
+            Write 3 words with letter <Text as="strong">"O"</Text> create 1
+            sentense for each word.
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            Question 2: Improve English
+            Question 2: Pattern problems
           </Heading>
           <Text fontSize="20px" mt={3}>
-            Create 3 separate sentences using word "<strong>tennis</strong>"
+            <Text as="strong">If:</Text>
+            <Text>2 + 2 = 44</Text>
+            <Text>3 + 3 = 96 </Text>
+            <Text>4 + 4 = 168 </Text>
+            <Text>5 + 5 = 2510 </Text>
+            <Text as="strong">Then: </Text>
+            <Text>6 + 6 = ?</Text>
           </Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            Question 3: Improve Listening and Speaking skills
+            Question 3: Solve the following
           </Heading>
-          <Text fontSize="20px" mt={3}>
-            Find 3 news headlines from today. Talk about it for 10 mins as a
-            video.
-          </Text>
+          <Box mt={6}>
+            <Image
+              src="https://www.prodigygame.com/blog/wp-content/uploads/brain-teasers-games-for-kids.jpg"
+              alt="brain teaser"
+            />
+          </Box>
         </Box>
       </Flex>
       <Flex
