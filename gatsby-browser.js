@@ -1,5 +1,2 @@
-// custom typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
-
-
+import { wrapRootElement } from './wrapRootElement'
+export default { wrapRootElement }
