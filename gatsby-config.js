@@ -79,5 +79,20 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Bitter`,
+            variants: [`700`],
+          },
+          {
+            family: `Rubik`,
+            variants: [`400`],
+          },
+        ],
+      },
+    },
   ],
 };
