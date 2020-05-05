@@ -39,37 +39,33 @@ const IndexPage = () => {
       >
         <Box my={3} p={6} bg="red.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            Question 1: Improve english
+            Question 1: Simplify and find the answer for this math
           </Heading>
           <Text fontSize="20px" mt={3}>
-            Write 3 words with letter <Text as="strong">"O"</Text> and create 1
-            sentense for each word.
+            {`36 − [18 − (15 − 4 ÷ 2 × 2)]`} =
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            Question 2: Pattern problems
+            Question 2: Open science question
           </Heading>
           <Text fontSize="20px" mt={3}>
-            <Text as="strong">If:</Text>
-            <Text>2 + 2 = 44</Text>
-            <Text>3 + 3 = 96 </Text>
-            <Text>4 + 4 = 168 </Text>
-            <Text>5 + 5 = 2510 </Text>
-            <Text as="strong">Then: </Text>
-            <Text>6 + 6 = ?</Text>
+            About three-fourths of the earth's surface is covered with water.
+            Why then is there a shortage of water?
           </Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            Question 3: Solve the following
+            Question 3: Challenge
           </Heading>
-          <Box mt={6}>
-            <Image
-              src="https://www.prodigygame.com/blog/wp-content/uploads/brain-teasers-games-for-kids.jpg"
-              alt="brain teaser"
-            />
-          </Box>
+          <Text fontSize="20px" mt={3}>
+            The length of a cloth is 20 CM. You have 10 M wire for hanging those
+            clothes.
+            <Text>
+              Q: What is the maximum number of clothes you can hang in the wire
+              anytime?
+            </Text>
+          </Text>
         </Box>
       </Flex>
       <Flex
