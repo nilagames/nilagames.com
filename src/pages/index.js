@@ -48,19 +48,18 @@ const IndexPage = () => {
         </Heading>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            1: Simplify and find the answer for this math
+            1: Watch today's news
           </Heading>
           <Text fontSize="20px" mt={3}>
-            {`36 − [18 − (15 − 4 ÷ 2 × 2)]`} =
+            Write it down in Tamil and English. Read it like a news later.
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            2: Open science question
+            2: Why do you need water?
           </Heading>
           <Text fontSize="20px" mt={3}>
-            About three-fourths of the earth's surface is covered with water.
-            Why then is there a shortage of water?
+            Why human body requires water? Talk about it for 10 mins
           </Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
@@ -69,22 +68,21 @@ const IndexPage = () => {
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text>
-              The length of a cloth is 7 CM. You have 10 M wire for hanging
-              those clothes.
+              A cyclist goes in a speed of 7 KM per hour. He travels 8 hours a
+              day for 30 days.
             </Text>
             <br />
             <Text>
-              Q 1: What is the maximum number of clothes you can hang in the
-              wire anytime?
+              Q 1: How long he travelled at the end of 30th day? (Answer in KM)
             </Text>
             <br />
             <Text>
-              Q 2: How many CM remaining after maximum number of clothes are
-              hanged?
+              Q 2: How many minutes he travelled in 30 days? (Answer in minutes)
             </Text>
           </Text>
         </Box>
       </Flex>
+
       <Flex
         bg="pink.50"
         flexDirection="column"
