@@ -48,18 +48,34 @@ const IndexPage = () => {
         </Heading>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            1: Watch today's news
+            1. Read the story and explain it
           </Heading>
+          <Text as="p" fontSize="20px" mt={3}>
+            <strong>The Farmer and the Snake</strong>
+          </Text>
           <Text fontSize="20px" mt={3}>
-            Write it down in Tamil and English. Read it like a news later.
+            A Farmer walked through his field one cold winter morning. On the
+            ground lay a Snake, stiff and frozen with the cold. The Farmer knew
+            how deadly the Snake could be, and yet he picked it up and put it in
+            his bosom to warm it back to life. The Snake soon revived, and when
+            it had enough strength, bit the man who had been so kind to it. The
+            bite was deadly and the Farmer felt that he must die. As he drew his
+            last breath, he said to those standing around, “Learn from my fate
+            not to take pity on a scoundrel”.
+          </Text>
+          <Text fontSize="20px" mt={3}>
+            Moral: There are some who never changes their nature, regardless of
+            how good we behave with them. Always stay alert and maintain the
+            distance from those who are there only thinking about their own
+            benefits.
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            2: Why do you need water?
+            2: Word sequence - Find the missing words
           </Heading>
           <Text fontSize="20px" mt={3}>
-            Why human body requires water? Talk about it for 10 mins
+            A, F, C, H, E, __, __
           </Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
@@ -68,16 +84,18 @@ const IndexPage = () => {
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text>
-              A cyclist goes in a speed of 7 KM per hour. He travels 8 hours a
-              day for 30 days.
+              A restaurant have 4 workers. 2 workers earn 10000 per month. 2
+              workers earn 8000 per month. The restaturant's monthly sales is
+              50000. And restaurant spend 12000 per month for operation cost.
             </Text>
             <br />
             <Text>
-              Q 1: How long he travelled at the end of 30th day? (Answer in KM)
+              Q 1: How much is the profit for the restaurant on a month?
             </Text>
             <br />
             <Text>
-              Q 2: How many minutes he travelled in 30 days? (Answer in minutes)
+              Q 2: How many salary paid to the employees in a month by the
+              restaurant?
             </Text>
           </Text>
         </Box>
