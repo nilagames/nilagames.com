@@ -64,7 +64,7 @@ const IndexPage = () => {
               1Kg tomato - Rs. 12 <br />
               1Kg potato - Rs. 8 <br />
               1Kg beans - Rs. 40 <br />
-              1Kg carrot - Rs> 24
+              1Kg carrot - Rs. 24
               <br />
             </Text>
             <br />
