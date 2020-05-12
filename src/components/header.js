@@ -33,7 +33,9 @@ const Header = (props) => {
         </Flex>
       </Box>
       <Box ml="auto">
-        <Button variant="solid">About</Button>
+        <Link to="/preschool">
+          <Button variant="solid">Preschool quiz</Button>
+        </Link>
       </Box>
     </Flex>
   );

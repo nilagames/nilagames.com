@@ -12,28 +12,13 @@ import {
 } from '@chakra-ui/core';
 import Layout from '../components/layout';
 
-const IndexPage = () => {
+const PreschoolPage = () => {
   return (
     <Layout>
-      <SEO title="Home" keywords={['Kids tasks', 'Learning habits for kids']} />
-
-      <Flex
-        bg="green.50"
-        flexDirection="column"
-        minH="450px"
-        justifyContent="center"
-      >
-        <Box p={4} maxW="600px" mx="auto" textAlign="center">
-          <Heading as="h1" fontSize="36px" textTransform="uppercase">
-            Building learning habits for kids
-          </Heading>
-          <Text as="p" fontSize="24px" my={6}>
-            Nila asks 3 questions everyday to kids. Its helps them to learn
-            different topics outside their book. Also helps them to build a
-            daily learning habits.
-          </Text>
-        </Box>
-      </Flex>
+      <SEO
+        title="Preschool"
+        keywords={['Preschool worksheet', 'Preschool worksheet']}
+      />
 
       <Flex
         maxW="720px"
@@ -44,32 +29,39 @@ const IndexPage = () => {
         justifyContent="center"
       >
         <Heading as="h2" my={6} textAlign="center">
-          Questions
+          Questions for preschool kids
         </Heading>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            1: Math challenge
-          </Heading>
-          <Text fontSize="20px" mt={3}>
-            <Text>
-              Nila have 100 rupees. It grows 10% every year. What will be the
-              money nila have after 2 years?
-            </Text>
-          </Text>
-        </Box>
-        <Box my={3} p={6} bg="green.100" borderRadius="4px">
-          <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            2: How many continents in the world? What are they?
-          </Heading>
-        </Box>
-        <Box my={3} p={6} bg="blue.100" borderRadius="4px">
-          <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            3: Logical Puzzle
+            1: Addition
           </Heading>
           <Box mt={3}>
             <Image
-              src="https://www.homeschoolmath.net/online/images/number-puzzle-example.gif"
-              alt="number-puzzle"
+              src="https://cdn.education.com/worksheet-image/126202/addition-circus-math-kindergarten.png"
+              alt="circus-addition"
+            />
+            <Text>Fill the boxes</Text>
+          </Box>
+        </Box>
+        <Box my={3} p={6} bg="green.100" borderRadius="4px">
+          <Heading as="h2" fontSize="24px" textTransform="uppercase">
+            2: Phonics & Spelling - Letter A
+          </Heading>
+          <Box mt={3}>
+            <Image
+              src="https://cdn.education.com/worksheet-image/127421/beginning-reading-letter-the-alphabet.png"
+              alt="phonics"
+            />
+          </Box>
+        </Box>
+        <Box my={3} p={6} bg="blue.100" borderRadius="4px">
+          <Heading as="h2" fontSize="24px" textTransform="uppercase">
+            3: Counting Numbers
+          </Heading>
+          <Box mt={3}>
+            <Image
+              src="https://cdn.education.com/worksheet-image/125139/number-sentence-superstar-addition-first.png"
+              alt="counting-numbers"
             />
             <Text>Fill the boxes</Text>
           </Box>
@@ -117,4 +109,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default PreschoolPage;
