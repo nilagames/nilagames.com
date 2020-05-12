@@ -48,60 +48,64 @@ const IndexPage = () => {
         </Heading>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            1: Find Average
+            1: Math challenge
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text>
-              Vennila likes to bicycle everyday. In last one week, she bicycled,
-              <br /> 2 KM on Sunday
-              <br /> 4 KM on Monday
-              <br /> 6 KM on Tuesday
-              <br /> 1 KM on Wednesday
-              <br /> 2 KM on Thursday
-              <br /> 3 KM on Friday
-              <br /> 4 KM on Saturday
+              Afrin goes to market. She buys 2Kg tomato, 3Kg potato 250g beans,
+              and 500g carrot.
             </Text>
             <br />
+            <Text>Kg - Kilogram, g - grams, Rs - Rupees</Text>
+            <br />
             <Text>
-              Q 1: What is the average distance vennila travelled per day?
+              Price List:
+              <br />
+              1Kg tomato - Rs. 12 <br />
+              1Kg potato - Rs. 8 <br />
+              1Kg beans - Rs. 40 <br />
+              1Kg carrot - Rs> 24
+              <br />
+            </Text>
+            <br />
+            <Text>Q 1: How much did Afrin spend in the market?</Text>
+            <Text>
+              Q 2: Afrin gave 100 rupees to the shopkeeper. How much money she
+              got back?
             </Text>
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            2: English sentenses - Fill in the blanks with suitable words
+            2: Read and Answer
           </Heading>
           <Text fontSize="20px" mt={3}>
-            Q 1: I _____ to learn english.
+            Burj Khalifa or "Khalifa Tower" is a very tall skyscraper in Dubai,
+            United Arab Emirates. It is the world's tallest building ever built,
+            at 828m (2,717ft). Before the building opened, it was called Burj
+            Dubai. The building is 160 stories high. Construction of the tower
+            was started in 2004. The building was officially opened on 4 January
+            2010. It is the tallest structure made by humans in the world. The
+            building is more than 300 metres (980 ft) taller than Taipei 101.
+            Taipei 101 was the tallest building until 2010 before Burj Khalifa
+            was built. But the Burj Khalifa may not hold this record for very
+            long because an even taller building called the Jeddah Tower is
+            being built in Jeddah in Saudi Arabia and it will be taller than 1
+            kilometer.
           </Text>
-          <Text fontSize="20px" mt={3}>
-            Q 2: Nishanth and Thaswin _____ brothers.
-          </Text>
-          <Text fontSize="20px" mt={3}>
-            Q 3: She _____ singing.
-          </Text>
-          <Text fontSize="20px" mt={3}>
-            Q 4: _____ is your birthday?
-          </Text>
-          <Text fontSize="20px" mt={3}>
-            Q 5: _____ sugar do you need?
-          </Text>
+          <br />
+          <Text>Q 1: Where is burj Khalifa?</Text>
+          <br />
+          <Text>Q 2: Where is Jeddah tower built?</Text>
+          <br />
+          <Text>Q 3: What is the height of Burj Khalifa?</Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            3: Maths Challenge
+            3: Read about Library
           </Heading>
           <Text fontSize="20px" mt={3}>
-            <Text>
-              Afrin watches cartoon everyday for last 30 days. Overall she
-              watched 45 hours for those 30 days.
-            </Text>
-            <br />
-            <Text>Q 1: How many hours she watched on an average per day?</Text>
-            <br />
-            <Text>
-              Q 2: How many minutes she watched TV on an average per week?
-            </Text>
+            <Text>Talk about library for 10 mins in Tamil and English</Text>
           </Text>
         </Box>
       </Flex>
