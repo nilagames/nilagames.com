@@ -52,15 +52,52 @@ const IndexPage = () => {
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text>
-              Nila have 100 rupees. It grows 10% every year. What will be the
-              money nila have after 2 years?
+              Nila have 200 rupees. It grows 20% every year. What will be the
+              money nila have after 3 years?
             </Text>
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            2: How many continents in the world? What are they?
+            2: Read and answer
           </Heading>
+          <Text>
+            Food shortage is still a big problem in the world today. Many people
+            do not have enough money to buy the food that they need. Bad weather
+            or other problems sometimes destroy the growing food in one part of
+            the world. When people do not have enough food, we say that they are
+            hungry. If they do not eat enough food for a long time, they will
+            become sick and die from starvation. In areas where many people do
+            not have enough food, we say that there is famine there. Food and
+            water can make people sick if it is contaminated by microorganisms,
+            bad metals, or chemicals. If people do not eat the right foods, they
+            can become sick. If people do not eat enough protein, they get the
+            disease called kwashiorkor. If they do not eat enough vitamin B1
+            (thiamine), they get the disease called beriberi. If they do not eat
+            enough vitamin C, they get the disease called scurvy. If children do
+            not eat enough vitamin D, they get the disease called rickets. If
+            people eat too much food, they can become overweight or obese. This
+            is also bad for people's health.
+          </Text>
+          <br />
+          <Text>Q 1: When do people become sick?</Text>
+          <br />
+          <Text>
+            Q 2: What disease people get if they don't eat enough Vitamin C?
+          </Text>
+          <br />
+          <Text>
+            Q 3: What is the meaning for?
+            <br />
+            1. Starvation
+            <br />
+            2. Hungry
+            <br />
+            3. Obese
+            <br />
+            4. Famine
+            <br />
+          </Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">

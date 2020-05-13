@@ -67,44 +67,6 @@ const PreschoolPage = () => {
           </Box>
         </Box>
       </Flex>
-
-      <Flex
-        bg="pink.50"
-        flexDirection="column"
-        minH="450px"
-        justifyContent="center"
-        alignItems="center"
-      >
-        <Box my={6}>
-          <List m={6}>
-            <ListItem fontSize="24px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              {` `}
-              Learning everyday is important.
-            </ListItem>
-            <ListItem fontSize="24px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              {` `}
-              The process to find the answer is more important.
-            </ListItem>
-            <ListItem fontSize="24px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              {` `}
-              No answer is perfect.
-            </ListItem>
-            <ListItem fontSize="24px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              {` `}
-              If possible, record and share your answers everyday to youtube.
-            </ListItem>
-            <ListItem fontSize="24px" m={3}>
-              <ListIcon icon="check-circle" color="green.300" />
-              {` `}
-              These questions helps to build a learning habit.
-            </ListItem>
-          </List>
-        </Box>
-      </Flex>
     </Layout>
   );
 };
