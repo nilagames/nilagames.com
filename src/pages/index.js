@@ -52,52 +52,26 @@ const IndexPage = () => {
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text>
-              Nila have 200 rupees. It grows 20% every year. What will be the
-              money nila have after 3 years?
+              Train running at a speed of 60 KM per hour. There are three stops
+              between starting point and destination.
+              <br />
+              First stop is at 30 KM
+              <br />
+              Second stop is at 45 KM
+              <br />
+              Third stop is at 72 KM
+              <br />
+            </Text>
+            <Text>
+              Q 1: How long does it takes for the train to reach 1st, 2nd and
+              3rd stop?
             </Text>
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            2: Read and answer
+            2: Speak about today's news for 10 mins
           </Heading>
-          <Text>
-            Food shortage is still a big problem in the world today. Many people
-            do not have enough money to buy the food that they need. Bad weather
-            or other problems sometimes destroy the growing food in one part of
-            the world. When people do not have enough food, we say that they are
-            hungry. If they do not eat enough food for a long time, they will
-            become sick and die from starvation. In areas where many people do
-            not have enough food, we say that there is famine there. Food and
-            water can make people sick if it is contaminated by microorganisms,
-            bad metals, or chemicals. If people do not eat the right foods, they
-            can become sick. If people do not eat enough protein, they get the
-            disease called kwashiorkor. If they do not eat enough vitamin B1
-            (thiamine), they get the disease called beriberi. If they do not eat
-            enough vitamin C, they get the disease called scurvy. If children do
-            not eat enough vitamin D, they get the disease called rickets. If
-            people eat too much food, they can become overweight or obese. This
-            is also bad for people's health.
-          </Text>
-          <br />
-          <Text>Q 1: When do people become sick?</Text>
-          <br />
-          <Text>
-            Q 2: What disease people get if they don't eat enough Vitamin C?
-          </Text>
-          <br />
-          <Text>
-            Q 3: What is the meaning for?
-            <br />
-            1. Starvation
-            <br />
-            2. Hungry
-            <br />
-            3. Obese
-            <br />
-            4. Famine
-            <br />
-          </Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
@@ -105,10 +79,9 @@ const IndexPage = () => {
           </Heading>
           <Box mt={3}>
             <Image
-              src="https://www.homeschoolmath.net/online/images/number-puzzle-example.gif"
+              src="https://1.bp.blogspot.com/-SHl5U4FPMAU/Xq15aQlhnvI/AAAAAAAAgPg/DLUDXJoB19w8ZrXZSvxHzdRCeLEU3SDRACLcBGAsYHQ/s1600/Juice%2BSandwich%2BMango%2BEquation%2BPuzzle.png"
               alt="number-puzzle"
             />
-            <Text>Fill the boxes</Text>
           </Box>
         </Box>
       </Flex>
