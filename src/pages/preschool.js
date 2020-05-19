@@ -37,7 +37,7 @@ const PreschoolPage = () => {
           </Heading>
           <Box mt={3}>
             <Image
-              src="https://cdn.education.com/worksheet-image/126202/addition-circus-math-kindergarten.png"
+              src="https://2.bp.blogspot.com/-PmsDnycgfw0/VQlrtB0wbaI/AAAAAAAAYTE/DPwAvJBt2B0/s1600/Addition-2.gif"
               alt="circus-addition"
             />
             <Text>Fill the boxes</Text>
@@ -45,25 +45,26 @@ const PreschoolPage = () => {
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            2: Phonics & Spelling - Letter A
+            2: Phonics
           </Heading>
           <Box mt={3}>
             <Image
-              src="https://cdn.education.com/worksheet-image/127421/beginning-reading-letter-the-alphabet.png"
+              src="https://www.kindergartenworksheets.net/images/worksheets/phonics/printable-phonics-worksheets-printout.png"
               alt="phonics"
             />
           </Box>
+          <Text>Learn the words</Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            3: Counting Numbers
+            3: Addition facts
           </Heading>
           <Box mt={3}>
             <Image
-              src="https://cdn.education.com/worksheet-image/125139/number-sentence-superstar-addition-first.png"
+              src="https://www.math-salamanders.com/image-files/addition-facts-worksheet-sentences-to-10-1.gif"
               alt="counting-numbers"
             />
-            <Text>Fill the boxes</Text>
+            <Text>Select the right one</Text>
           </Box>
         </Box>
       </Flex>

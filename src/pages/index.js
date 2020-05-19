@@ -48,44 +48,39 @@ const IndexPage = () => {
         </Heading>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            1: Math challenge
+            1: Time and Clock
           </Heading>
           <Text fontSize="20px" mt={3}>
-            <Text>
-              First ship travels at a speed of 100 KM per hour. Second ship from
-              opposite side travel at a speed of 120 KM per hour. First ship
-              travels from Chennai to Andaman. Second ship travels from Andaman
-              to Chennai. They both start their journey at the same time at 5 PM
-              in the evening. The total distance between Andaman and Chennai is
-              560 KM.
-            </Text>
-            <Text>
-              Q 1: How long does it takes for the first ship to reach Andaman?
-            </Text>
-            <Text>
-              Q 2: How long does it takes for the second ship to reach Chennai?
-            </Text>
-            <Text>
-              Q 3: When does both the ship crosses each other? (in time)
-            </Text>
+            <Text mb={2}>Q 1: How many minutes in 3 hrs 42 mins?</Text>
+            <Text mb={2}>Q 2: How many seconds in 36 mins?</Text>
+            <Text mb={2}>Q 3: Convert 0.5 hrs into minutes?</Text>
+            <Text mb={2}>Q 4: Convert 3.6 hrs into minutes?</Text>
+            <Text mb={2}>Q 5: Convert 3.6 hrs into hours and minutes?</Text>
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px">
-            2: Create a dialogue between you and a restaurant waiter (atleast 10
-            conversation)
+            2: Write an informal letter to your grand parents
           </Heading>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            3: Logical Puzzle
+            3: Math challenge
           </Heading>
-          <Box mt={3}>
-            <Image
-              src="https://images.squarespace-cdn.com/content/v1/54905286e4b050812345644c/1586987812039-9B8C3ZSUN13L5DZ1HVPN/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/one.jpg?format=2500w"
-              alt="number-puzzle"
-            />
-          </Box>
+          <Text fontSize="20px" mt={3}>
+            <Text mb={2}>
+              Nila orders 300ml (milli-litres) milk everyday from Afrin on
+              weekdays. On weekends, she orders 500ml milk from Afrin. 1 litre
+              milk price is 42 rupees.
+            </Text>
+            <Text mb={2}>
+              Q 1: How much milk did nila ordered for 4 weeks? (answer in
+              litres)
+            </Text>
+            <Text mb={2}>
+              Q 2: How much money Nila has to give to Afrin after 4 weeks?
+            </Text>
+          </Text>
         </Box>
       </Flex>
 
