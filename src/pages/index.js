@@ -78,16 +78,10 @@ const IndexPage = () => {
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text mb={2}>
-              Nila orders 300ml (milli-litres) milk from Afrin on weekdays. On
-              weekends, she orders 500ml milk from Afrin. 1 litre milk price is
-              42 rupees.
-            </Text>
-            <Text mb={2}>
-              Q 1: How much milk did nila ordered for 4 weeks? (answer in
-              litres)
-            </Text>
-            <Text mb={2}>
-              Q 2: How much money Nila has to give to Afrin after 4 weeks?
+              Samantha has two pieces of cloth. One piece is 72 inches wide and
+              the other piece is 90 inches wide. She wants to cut both pieces
+              into strips of equal width that are as wide as possible. How wide
+              should she cut the strips?
             </Text>
           </Text>
         </Box>
