@@ -69,9 +69,9 @@ const IndexPage = () => {
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text mb={2}>
-              Nila orders 300ml (milli-litres) milk everyday from Afrin on
-              weekdays. On weekends, she orders 500ml milk from Afrin. 1 litre
-              milk price is 42 rupees.
+              Nila orders 300ml (milli-litres) milk from Afrin on weekdays. On
+              weekends, she orders 500ml milk from Afrin. 1 litre milk price is
+              42 rupees.
             </Text>
             <Text mb={2}>
               Q 1: How much milk did nila ordered for 4 weeks? (answer in
