@@ -91,6 +91,25 @@ const IndexPage = () => {
             </Text>
           </Text>
         </Box>
+        <Box my={3} p={6} bg="blue.100" borderRadius="4px">
+          <Heading as="h2" fontSize="24px" textTransform="uppercase">
+            3: Math challenge
+          </Heading>
+          <Text fontSize="20px" mt={3}>
+            <Text mb={2}>
+              Nila orders 300ml (milli-litres) milk from Afrin on weekdays. On
+              weekends, she orders 500ml milk from Afrin. 1 litre milk price is
+              42 rupees.
+            </Text>
+            <Text mb={2}>
+              Q 1: How much milk did nila ordered for 4 weeks? (answer in
+              litres)
+            </Text>
+            <Text mb={2}>
+              Q 2: How much money Nila has to give to Afrin after 4 weeks?
+            </Text>
+          </Text>
+        </Box>
       </Flex>
 
       <Flex
