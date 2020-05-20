@@ -48,20 +48,29 @@ const IndexPage = () => {
         </Heading>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            1: Time and Clock
+            1: Reading English
           </Heading>
           <Text fontSize="20px" mt={3}>
-            <Text mb={2}>Q 1: How many minutes in 3 hrs 42 mins?</Text>
-            <Text mb={2}>Q 2: How many seconds in 36 mins?</Text>
-            <Text mb={2}>Q 3: Convert 0.5 hrs into minutes?</Text>
-            <Text mb={2}>Q 4: Convert 3.6 hrs into minutes?</Text>
-            <Text mb={2}>Q 5: Convert 3.6 hrs into hours and minutes?</Text>
+            A farmer is a very important person. He works all day in the fields,
+            growing crops which we eat. Farmers are hardworking people. For a
+            farmer, his land means everything. A farmer’s day begins early in
+            the morning. They grow crops and sell it in the market. They also
+            grow fruits and vegetables. They live in huts and mud houses. The
+            farmer ploughs his land with a pair of oxen. Some use tractors to do
+            the work faster. They water their fields regularly. His family also
+            helps him. When it rains, the farmers rejoice because rains mean a
+            good harvest. We must be grateful to the farmers.
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px">
-            2: Write an informal letter to your grand parents
+            2: English sentence making
           </Heading>
+          <Text fontSize="20px" mt={3}>
+            <Text mb={2}>Q 1: Ask a question with word "do"</Text>
+            <Text mb={2}>Q 2: Make a sentence using word "request"</Text>
+            <Text mb={2}>Q 3: Ask a question using "what"</Text>
+          </Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
