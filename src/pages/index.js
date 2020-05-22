@@ -67,9 +67,9 @@ const IndexPage = () => {
             2: English sentence making
           </Heading>
           <Text fontSize="20px" mt={3}>
-            <Text mb={2}>Q 1: Ask a question with word "do"</Text>
-            <Text mb={2}>Q 2: Make a sentence using word "request"</Text>
-            <Text mb={2}>Q 3: Ask a question using "what"</Text>
+            <Text mb={2}>Q 1: Ask a question with word "will"</Text>
+            <Text mb={2}>Q 2: Make a sentence using word "sky"</Text>
+            <Text mb={2}>Q 3: Ask a question using "how many"</Text>
           </Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
@@ -78,10 +78,9 @@ const IndexPage = () => {
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text mb={2}>
-              Samantha has two pieces of cloth. One piece is 72 inches wide and
-              the other piece is 90 inches wide. She wants to cut both pieces
-              into strips of equal width that are as wide as possible. How wide
-              should she cut the strips?
+              Ben exercises every 12 days and Isabel every 8 days. Ben and
+              Isabel both exercised today. How many days will it be until they
+              exercise together again?
             </Text>
           </Text>
         </Box>
@@ -91,16 +90,8 @@ const IndexPage = () => {
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text mb={2}>
-              Nila orders 300ml (milli-litres) milk from Afrin on weekdays. On
-              weekends, she orders 500ml milk from Afrin. 1 litre milk price is
-              42 rupees.
-            </Text>
-            <Text mb={2}>
-              Q 1: How much milk did nila ordered for 4 weeks? (answer in
-              litres)
-            </Text>
-            <Text mb={2}>
-              Q 2: How much money Nila has to give to Afrin after 4 weeks?
+              Rosa is making a game board that is 16 inches by 24 inches. She
+              wants to use square tiles. What is the larges tile she can use?
             </Text>
           </Text>
         </Box>
