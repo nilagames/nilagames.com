@@ -48,28 +48,18 @@ const IndexPage = () => {
         </Heading>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            1: Reading English
+            1: Reading the story from URL
           </Heading>
           <Text fontSize="20px" mt={3}>
-            A farmer is a very important person. He works all day in the fields,
-            growing crops which we eat. Farmers are hardworking people. For a
-            farmer, his land means everything. A farmer’s day begins early in
-            the morning. They grow crops and sell it in the market. They also
-            grow fruits and vegetables. They live in huts and mud houses. The
-            farmer ploughs his land with a pair of oxen. Some use tractors to do
-            the work faster. They water their fields regularly. His family also
-            helps him. When it rains, the farmers rejoice because rains mean a
-            good harvest. We must be grateful to the farmers.
+            https://www.bbc.co.uk/learningenglish/english/features/childrens-stories/therobot
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px">
-            2: English sentence making
+            2: What comes next?
           </Heading>
           <Text fontSize="20px" mt={3}>
-            <Text mb={2}>Q 1: Ask a question with word "will"</Text>
-            <Text mb={2}>Q 2: Make a sentence using word "sky"</Text>
-            <Text mb={2}>Q 3: Ask a question using "how many"</Text>
+            <Image src="https://www.teachstarter.com/wp-content/uploads/2016/08/2.1.png" />
           </Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
@@ -78,20 +68,11 @@ const IndexPage = () => {
           </Heading>
           <Text fontSize="20px" mt={3}>
             <Text mb={2}>
-              Ben exercises every 12 days and Isabel every 8 days. Ben and
-              Isabel both exercised today. How many days will it be until they
-              exercise together again?
-            </Text>
-          </Text>
-        </Box>
-        <Box my={3} p={6} bg="blue.100" borderRadius="4px">
-          <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            3: Math challenge
-          </Heading>
-          <Text fontSize="20px" mt={3}>
-            <Text mb={2}>
-              Rosa is making a game board that is 16 inches by 24 inches. She
-              wants to use square tiles. What is the larges tile she can use?
+              Amul icecream company polls its customers on their favorite
+              flavor: chocolate or vanilla? 106 customers said they liked
+              chocolate, 97 customer said they like vanilla, while 31 customers
+              said they liked both chocolate and vanilla. How many customers
+              said they like only chocolate?
             </Text>
           </Text>
         </Box>
