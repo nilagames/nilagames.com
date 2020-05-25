@@ -51,7 +51,9 @@ const IndexPage = () => {
             1: Reading the story from URL
           </Heading>
           <Text fontSize="20px" mt={3}>
-            https://www.bbc.co.uk/learningenglish/english/features/childrens-stories/therobot
+            <a href="https://www.bbc.co.uk/learningenglish/english/features/childrens-stories/therobot">
+              https://www.bbc.co.uk/learningenglish/english/features/childrens-stories/therobot
+            </a>
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
