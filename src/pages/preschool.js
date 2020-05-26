@@ -79,6 +79,28 @@ const PreschoolPage = () => {
             <Text my={3}>Fill the numbers</Text>
           </Box>
         </Box>
+        <Box my={3} p={6} bg="blue.100" borderRadius="4px">
+          <Heading as="h2" fontSize="24px" textTransform="uppercase">
+            4: Big and Small
+          </Heading>
+          <Box mt={3}>
+            <Image
+              src="https://2.bp.blogspot.com/-O9W415kldoE/UAgdhFFOuWI/AAAAAAAAOlU/3MpcUYKYXpc/s1600/Big-and-Small-1.jpg"
+              alt="big-small"
+            />
+          </Box>
+        </Box>
+        <Box my={3} p={6} bg="blue.100" borderRadius="4px">
+          <Heading as="h2" fontSize="24px" textTransform="uppercase">
+            5: Drawing for Kids
+          </Heading>
+          <Box mt={3}>
+            <Image
+              src="https://i.ytimg.com/vi/Kg159gNncRg/maxresdefault.jpg"
+              alt="drawing"
+            />
+          </Box>
+        </Box>
       </Flex>
     </Layout>
   );
