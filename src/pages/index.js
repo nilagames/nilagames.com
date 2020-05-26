@@ -55,17 +55,22 @@ const IndexPage = () => {
               target="_blank"
               href="https://www.bbc.co.uk/learningenglish/english/features/childrens-stories/therobot"
             >
-              https://www.bbc.co.uk/learningenglish/english/features/childrens-stories/therobot
+              Read the story here
             </a>
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px">
-            2: What comes next?
+            2: Math puzzle
           </Heading>
           <Text fontSize="20px" mt={3}>
-            <Image src="https://www.teachstarter.com/wp-content/uploads/2016/08/2.1.png" />
+            In a survey of university students, 64 had taken mathematics course,
+            94 had taken chemistry course, 58 had taken physics course, 28 had
+            taken mathematics and physics, 26 had taken mathematics and
+            chemistry, 22 had taken chemistry and physics course, and 14 had
+            taken all the three courses.
           </Text>
+          <Text mb={2}>Q 1: Find how many had taken one course only</Text>
         </Box>
         <Box my={3} p={6} bg="blue.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
@@ -76,10 +81,26 @@ const IndexPage = () => {
               Amul icecream company polls its customers on their favorite
               flavor: chocolate or vanilla? 106 customers said they liked
               chocolate, 97 customer said they like vanilla, while 31 customers
-              said they liked both chocolate and vanilla. How many customers
-              said they like only chocolate?
+              said they liked both chocolate and vanilla.
+            </Text>
+            <Text mb={2}>
+              Q 1: How many customers said they like only chocolate?
+            </Text>
+            <Text mb={2}>
+              Q 2: How many customers participated in the poll?
             </Text>
           </Text>
+        </Box>
+        <Box my={3} p={6} bg="purple.100" borderRadius="4px">
+          <Heading as="h2" fontSize="24px" textTransform="uppercase">
+            4: Solve it
+          </Heading>
+          <Text fontSize="20px" mt={3}>
+            Nila and Afrin invest in a business in the ratio 3 : 2. If 5% of the
+            total profit goes to charity and Nila's share is Rs. 855.
+          </Text>
+          <Text mb={2}>Q 1: What is the total profit?</Text>
+          <Text mb={2}>Q 2: What is the Afrin's share?</Text>
         </Box>
       </Flex>
 
