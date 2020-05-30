@@ -48,31 +48,16 @@ const IndexPage = () => {
         </Heading>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            1: Reading the story
+            1: Make sentence using words
           </Heading>
-          <Text fontSize="20px" mt={3}>
-            The lemon is a small tree that is green even in the winter. It came
-            from Asia, and is also the name of the tree's oval-shaped yellow
-            fruit. The fruit is used for cooking and other things in the world –
-            usually for its juice. People do not know for sure where lemons have
-            come from. However, most people think that lemons first grew in
-            India, northern Burma, and China. The lemon is the common name for
-            Citrus limon. A lemon is a yellow citrus fruit. It is related to the
-            orange. Lemon juice is about 5% citric acid, and has a pH of 2 to 3.
-            Lemon plants vary in size yet stay generally small. The tallest
-            height they can get is about 6 meters tall. Lemons taste sour. The
-            juice, zest, and pulp are often used in cooking, often on fish and
-            other meat for better taste. Lemon is also used to flavour drinks,
-            such as lemonade or soft drinks.
+          <Text fontSize="20px" mt={2}>
+            Q 1: Create a question using word 'How'?
           </Text>
           <Text fontSize="20px" mt={2}>
-            Q 1: How tall lemon can grow?
+            Q 2: Create a sentence using word 'online'?
           </Text>
           <Text fontSize="20px" mt={2}>
-            Q 2: What is the taste of lemon?
-          </Text>
-          <Text fontSize="20px" mt={2}>
-            Q 2: What is the color of lemon tree during winter?
+            Q 3: Make a sentence using word 'lemon'?
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
@@ -80,24 +65,38 @@ const IndexPage = () => {
             2: Math puzzle
           </Heading>
           <Text fontSize="20px" mt={3}>
-            In a class of 60 students, 40 students like math, 36 like science,
-            24 like both the subjects. Find the number of students who like
+            The cold faucet in my bath lets the water in at the rate of 15
+            litres per minute.
             <br />
-            (i) Math only, (ii) Science only (iii) Either Math or Science (iv)
-            Neither Math nor science.
+            The hot faucet fills the bath at the rate of 10 liters per minute.
+            <br />
+            The plug hole lets the water out of the bath at the rate of 12
+            liters per minute.
+            <br />
+            <br />
+            The bath holds a maximum of 520 liters.
+            <br />
+            <br />I turn both faucets on, but forget to put the plug in. How
+            many minutes does it take for the bath to overflow?
           </Text>
-          <Text mb={2}>Q 1: Find how many had taken one course only</Text>
         </Box>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            3: Solve the math
+            3: Logical puzzle
           </Heading>
           <Text fontSize="20px" mt={3}>
-            Nila, Afrin and Nishanth bought 3 litres of milk. The decided to
-            split the milk in ratio 4:1:3.
-          </Text>
-          <Text fontSize="20px" mb={2}>
-            Q 1: How much milk each one get?
+            A farmer wants to cross a river and take with him a wolf, a goat,
+            and a cabbage.
+            <br />
+            There is a boat that can fit himself plus either the wolf, the goat,
+            or the cabbage.
+            <br />
+            If the wolf and the goat are alone on one shore, the wolf will eat
+            the goat. If the goat and the cabbage are alone on the shore, the
+            goat will eat the cabbage.
+            <br />
+            How can the farmer bring the wolf, the goat, and the cabbage across
+            the river?
           </Text>
         </Box>
       </Flex>
