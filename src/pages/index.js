@@ -51,13 +51,13 @@ const IndexPage = () => {
             1: Make sentence using words
           </Heading>
           <Text fontSize="20px" mt={2}>
-            Q 1: Create a question using word 'How'?
+            Q 1: Create a question using word 'When'?
           </Text>
           <Text fontSize="20px" mt={2}>
-            Q 2: Create a sentence using word 'online'?
+            Q 2: Create a question using word 'When'?
           </Text>
           <Text fontSize="20px" mt={2}>
-            Q 3: Make a sentence using word 'lemon'?
+            Q 3: Make a sentence using word 'recipe'?
           </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
@@ -65,19 +65,16 @@ const IndexPage = () => {
             2: Math puzzle
           </Heading>
           <Text fontSize="20px" mt={3}>
-            The cold faucet in my bath lets the water in at the rate of 15
-            litres per minute.
+            I have ten boxes, with a total weight of 75kg:
             <br />
-            The hot faucet fills the bath at the rate of 10 liters per minute.
+            15 kg, 13 kg, 11 kg, 10 kg, 9 kg, 8 kg, 4 kg, 2 kg, 2 kg, 1 kg
             <br />
-            The plug hole lets the water out of the bath at the rate of 12
-            liters per minute.
+            I want to pack the boxes into 3 crates, but each crate can carry a
+            maximum of 25 kg.
             <br />
+            How can I pack the boxes into the crates?
             <br />
-            The bath holds a maximum of 520 liters.
-            <br />
-            <br />I turn both faucets on, but forget to put the plug in. How
-            many minutes does it take for the bath to overflow?
+            (There may, or may not, be more than one way!)
           </Text>
         </Box>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
@@ -85,18 +82,10 @@ const IndexPage = () => {
             3: Logical puzzle
           </Heading>
           <Text fontSize="20px" mt={3}>
-            A farmer wants to cross a river and take with him a wolf, a goat,
-            and a cabbage.
-            <br />
-            There is a boat that can fit himself plus either the wolf, the goat,
-            or the cabbage.
-            <br />
-            If the wolf and the goat are alone on one shore, the wolf will eat
-            the goat. If the goat and the cabbage are alone on the shore, the
-            goat will eat the cabbage.
-            <br />
-            How can the farmer bring the wolf, the goat, and the cabbage across
-            the river?
+            For a dinner party, Abraham is creating individual servings of
+            starters. He has 9 carrot sticks and 18 celery sticks. If he wants
+            each serving to be identical, with no food left over, what is the
+            greatest number of servings Abraham can create?
           </Text>
         </Box>
       </Flex>
