@@ -48,44 +48,28 @@ const IndexPage = () => {
         </Heading>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            1: Make sentence using words
+            1: Create a conversation between TTR and you during a train journey
           </Heading>
-          <Text fontSize="20px" mt={2}>
-            Q 1: Create a question using word 'When'?
-          </Text>
-          <Text fontSize="20px" mt={2}>
-            Q 2: Create a question using word 'When'?
-          </Text>
-          <Text fontSize="20px" mt={2}>
-            Q 3: Make a sentence using word 'recipe'?
-          </Text>
         </Box>
         <Box my={3} p={6} bg="green.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px">
-            2: Math puzzle
+            2: Solve the Math
           </Heading>
           <Text fontSize="20px" mt={3}>
-            I have ten boxes, with a total weight of 75kg:
-            <br />
-            15 kg, 13 kg, 11 kg, 10 kg, 9 kg, 8 kg, 4 kg, 2 kg, 2 kg, 1 kg
-            <br />
-            I want to pack the boxes into 3 crates, but each crate can carry a
-            maximum of 25 kg.
-            <br />
-            How can I pack the boxes into the crates?
-            <br />
-            (There may, or may not, be more than one way!)
+            A container contains 40 litres of milk. From this container 4 litres
+            of milk was taken out and replaced by water. This process was
+            repeated further two times. How much milk is now contained by the
+            container?
           </Text>
         </Box>
         <Box my={3} p={6} bg="purple.100" borderRadius="4px">
           <Heading as="h2" fontSize="24px" textTransform="uppercase">
-            3: Logical puzzle
+            3: Math logic
           </Heading>
           <Text fontSize="20px" mt={3}>
-            For a dinner party, Abraham is creating individual servings of
-            starters. He has 9 carrot sticks and 18 celery sticks. If he wants
-            each serving to be identical, with no food left over, what is the
-            greatest number of servings Abraham can create?
+            Nila is thrice as good as Afrin in work. Nila is able to finish a
+            job in 60 days less than Afrin. They can finish the work in ___ days
+            if they work together.
           </Text>
         </Box>
       </Flex>
