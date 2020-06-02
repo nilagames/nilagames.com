@@ -8,25 +8,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { Box } from '@chakra-ui/core';
 
-import Header from './header';
+import Header, { Footer } from './header-footer';
 
-const Layout = ({ children, title }) => [
+const Layout = ({ children, title }) => (
   <>
-    <Box className="siteContainer">
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-      <Box className="siteContent">
-        <Header />
-        <Box as="main" className="main">
-          {children}
-        </Box>
-      </Box>
-    </Box>
-  </>,
-];
+    <Helmet>
+      <title>{title}</title>
+    </Helmet>
+    <Header />
+    <main>{children}</main>
+    <Footer />
+  </>
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
