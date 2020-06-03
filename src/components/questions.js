@@ -14,25 +14,36 @@ const Questions = () => {
       <Heading as="h2" my={6} textAlign="center">
         Questions
       </Heading>
-      <Box my={3} p={6} bg="green.100" borderRadius="4px">
-        <Heading as="h2" fontSize="24px">
-          1: Solve the Math
+      <Box my={3} p={6} bg="orange.100" borderRadius="4px">
+        <Heading as="h2" fontSize="24px" textTransform="uppercase">
+          1: Logical puzzle
         </Heading>
         <Text fontSize="20px" mt={3}>
-          Alex purchases a new house, but the main gate of house looks ugly
-          because of color. He measures the gate 10 feet by 12 feet. He wants to
-          paint the main gate with white color at a cost of $15 per square foot.
-          How much will it cost for Alex to add color to his main gate?
+          When asked about his birthday, a man said: "The day before yesterday I
+          was only 25 and next year I will turn 28." This is true only one day
+          in a year - when was he born?
+        </Text>
+      </Box>
+      <Box my={3} p={6} bg="green.100" borderRadius="4px">
+        <Heading as="h2" fontSize="24px">
+          2: Solve the Math
+        </Heading>
+        <Text fontSize="20px" mt={3}>
+          A train 280 m long crosses the bridge 170 m in 22.5 seconds. Find the
+          speed of the train in km/hr
         </Text>
       </Box>
       <Box my={3} p={6} bg="purple.100" borderRadius="4px">
         <Heading as="h2" fontSize="24px" textTransform="uppercase">
-          2: Logical puzzle
+          3: Logical puzzle
         </Heading>
-        <Image
-          my={6}
-          src="https://i.pinimg.com/originals/69/61/9c/69619c7e71b58c1e5121aebf6260e272.png"
-        />
+        <Text fontSize="20px" mt={3}>
+          The sum of the incomes of Abha and Bhabha is more than that of Cabha
+          and Dhaba together. The sum of the Incomes of Abha and Cabha is the
+          same as that of Bhaba and Dhaba taken together. Moreover, Abha earns
+          half as much as the sum of the incomes of Bhaba and Dhaba? Whose
+          income is the highest?
+        </Text>
       </Box>
       <Box my={3} p={6} bg="orange.100" borderRadius="4px">
         <Heading as="h2" fontSize="24px" textTransform="uppercase">
