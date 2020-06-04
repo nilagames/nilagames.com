@@ -16,68 +16,38 @@ const Questions = () => {
       </Heading>
       <Box my={3} p={6} bg="orange.100" borderRadius="4px">
         <Heading as="h2" fontSize="24px" textTransform="uppercase">
-          1: Logical puzzle
+          1: Solve the math
         </Heading>
         <Text fontSize="20px" mt={3}>
-          When asked about his birthday, a man said: "The day before yesterday I
-          was only 25 and next year I will turn 28." This is true only one day
-          in a year - when was he born?
+          Nishanth bought 24 mangoes for 140 rupees. First day, he sold 13
+          mangoes for 9 rupees each. Second day, he sold another 9 mangoes for
+          much lesser price of 7 rupees each. Third day, he sold the remaining
+          mangoes for 5 rupees each. How much profit did he get after sold all
+          the mangoes?
         </Text>
       </Box>
       <Box my={3} p={6} bg="green.100" borderRadius="4px">
         <Heading as="h2" fontSize="24px">
-          2: Solve the Math
+          2: Time related puzzle
         </Heading>
         <Text fontSize="20px" mt={3}>
-          A train 280 m long crosses the bridge 170 m in 22.5 seconds. Find the
-          speed of the train in km/hr
+          Thaswin watch TV everyday. On weekdays, he watch 24 mins everyday. On
+          weekends, he watch 2 hours 42 mins everyday.
+          <br />
+          <strong>Q 1:</strong> How many hours does he watch TV in a week?
+          <br />
+          <strong>Q 2:</strong> How many hours does he watch TV in a month
+          (i.e., 31 days)?
+          <strong>Q 3:</strong> How many hours does he watch TV in a year (i.e.,
+          365 days)?
         </Text>
       </Box>
       <Box my={3} p={6} bg="purple.100" borderRadius="4px">
         <Heading as="h2" fontSize="24px" textTransform="uppercase">
-          3: Logical puzzle
+          3: Find the sequence
         </Heading>
         <Text fontSize="20px" mt={3}>
-          The sum of the incomes of Abha and Bhabha is more than that of Cabha
-          and Dhaba together. The sum of the Incomes of Abha and Cabha is the
-          same as that of Bhaba and Dhaba taken together. Moreover, Abha earns
-          half as much as the sum of the incomes of Bhaba and Dhaba? Whose
-          income is the highest?
-        </Text>
-      </Box>
-      <Box my={3} p={6} bg="orange.100" borderRadius="4px">
-        <Heading as="h2" fontSize="24px" textTransform="uppercase">
-          3: Read and answer
-        </Heading>
-        <Text fontSize="20px" mt={3}>
-          John liked chocolates very much, but his mother never gave him any,
-          because they were bad for his teeth, she thought. But John had a very
-          nice grandfather. The old man loved his grandson very much, and
-          sometimes he brought John chocolates when he came to visit him. Then
-          his mother let him eat them, because she wanted to make the old man
-          happy. One evening, a few days before John’s seventh birthday, he was
-          saying his prayers in his bedroom before he went to bed. "Please, God"
-          he shouted, "make them give me a big box of chocolates for my birthday
-          on Saturday". His mother was in the kitchen and she heard the small
-          boy shouting and went into his bedroom quickly. "Why are you shouting,
-          John?" she asked her son, "God can hear you when you talk quietly" ​
-          "I know" answer the clever boy with a smile, "but Grandfather's in the
-          next room, and he can't".
-        </Text>
-        <Text fontSize="20px" mt={6}>
-          <strong>Q 1:</strong> Why did his grandfather sometimes give him
-          chocolate?
-        </Text>
-        <Text fontSize="20px" mt={3}>
-          <strong>Q 2:</strong> Why did his mother let John eat the chocolate he
-          got from his grandfarther?
-        </Text>
-        <Text fontSize="20px" mt={3}>
-          <strong>Q 3:</strong> What did he pray to God before his seventh
-          birthday?
-        </Text>
-        <Text fontSize="20px" mt={3}>
-          <strong>Q 4:</strong> Why did he shout when he was praying?
+          1, 8, 15, 22, ___, ___
         </Text>
       </Box>
     </Flex>
