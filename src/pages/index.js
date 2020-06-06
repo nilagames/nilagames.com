@@ -1,12 +1,19 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Box } from '@chakra-ui/core';
+import { Box, Grid, Heading } from '@chakra-ui/core';
 
 import SEO from '../components/seo';
 import Layout from '../components/layout';
+import Card from '../components/card';
+import Link from '../components/quiz-link';
 import Hero, { HeroWithImage } from '../components/hero';
-import { HeroImage, SayHiImage } from '../components/images';
-import Questions from '../components/questions';
+import {
+  HeroImage,
+  SayHiImage,
+  SequenceImage,
+  MathsImage,
+  LogicalImage,
+} from '../components/images';
 
 const Container = styled(Box)`
   max-width: 960px;
@@ -23,15 +30,35 @@ const Page = (props) => {
             title="Create learning habits among kids"
             description="Nila asks 3 questions everyday to kids. Its helps them to learn different topics outside their book. Also helps them to build a daily learning habits."
             HeroImage={HeroImage}
-            hasButton={true}
+            hasButton={false}
             buttonText="Get started"
             buttonLink="/"
           />
         </Container>
       </Box>
-      <Box>
-        <Questions />
-      </Box>
+      <Container py="50px" px="20px">
+        <Box textAlign="center">
+          <Heading
+            as="h3"
+            mb={12}
+            fontSize={{ base: '3xl', md: '4xl' }}
+            color="gray.900"
+          >
+            Categories
+          </Heading>
+        </Box>
+        <Grid templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']} gap={6}>
+          <Link to="/sequences">
+            <Card bg="yellow.100" Image={SequenceImage} title="Sequences" />
+          </Link>
+          <Link to="/numbers">
+            <Card bg="green.100" Image={MathsImage} title="Solve the Math" />
+          </Link>
+          <Link to="/logical-puzzles">
+            <Card bg="red.100" Image={LogicalImage} title="Logical puzzles" />
+          </Link>
+        </Grid>
+      </Container>
       <Box bg="gray.50">
         <Container pt="100px" px="20px">
           <Hero
