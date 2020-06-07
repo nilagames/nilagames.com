@@ -36,6 +36,7 @@ const QuizItem = ({ title, slug, body, url }) => {
       </Text>
       <Link to={slug} backTo={url}>
         <Button
+          variant="outline"
           variantColor="pink"
           lineHeight="1"
           textTransform="uppercase"
