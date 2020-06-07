@@ -48,14 +48,26 @@ const Page = (props) => {
           </Heading>
         </Box>
         <Grid templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']} gap={6}>
-          <Link to="/sequences">
-            <Card bg="yellow.100" Image={SequenceImage} title="Sequences" />
-          </Link>
           <Link to="/numbers">
-            <Card bg="green.100" Image={MathsImage} title="Solve the Math" />
+            <Card
+              bg="yellow.100"
+              title="Numbers"
+              description="Learn basic operations on numbers"
+            />
+          </Link>
+          <Link to="/math-puzzles">
+            <Card
+              bg="green.100"
+              title="Solve the Math"
+              description="Puzzles that teach you real world examples for mathematics"
+            />
           </Link>
           <Link to="/logical-puzzles">
-            <Card bg="red.100" Image={LogicalImage} title="Logical puzzles" />
+            <Card
+              bg="red.100"
+              title="Logical puzzles"
+              description="Puzzles that examine your logical reasoning skills"
+            />
           </Link>
         </Grid>
       </Container>

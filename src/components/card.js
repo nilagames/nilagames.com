@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Heading } from '@chakra-ui/core';
+import { Box, Heading, Text } from '@chakra-ui/core';
 import styled from '@emotion/styled';
 
 const StyledBox = styled(Box)`
@@ -10,13 +10,21 @@ const StyledBox = styled(Box)`
   }
 `;
 
-const Card = ({ Image, title, ...props }) => {
+const Card = ({ title, description, ...props }) => {
   return (
-    <StyledBox w="100%" borderRadius="12px" p="4" {...props}>
-      <Image />
-      <Heading fontSize="28px" textAlign="center" mb="3">
+    <StyledBox
+      w="100%"
+      minH="220px"
+      textAlign="center"
+      borderRadius="12px"
+      px="4"
+      py="12"
+      {...props}
+    >
+      <Heading fontSize="28px" mb="3">
         {title}
       </Heading>
+      <Text fontSize="18px">{description}</Text>
     </StyledBox>
   );
 };
