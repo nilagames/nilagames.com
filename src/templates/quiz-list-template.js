@@ -58,7 +58,7 @@ class QuizListTemplate extends React.Component {
           title={tag || 'Quiz page'}
           keywords={['Quiz for kids', 'Daily habits for kids']}
         />
-        <StyledQuizContainer bg="gray.50" p={6}>
+        <StyledQuizContainer bg="green.100" p={6}>
           <QuizList posts={posts} url={pageUrl} />
           <Container>
             <PrevNextPageContainer>

@@ -10,9 +10,6 @@ const QuizPostContainer = styled(Box)`
   margin-bottom: 1.5rem;
   transition: all 0.2s ease-in;
   box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1);
-  &:hover {
-    transform: translateY(-4px);
-  }
   @media (max-width: 575.98px) {
     padding: 1.5rem 1rem;
   }
@@ -26,11 +23,9 @@ const QuizPostContainer = styled(Box)`
   }
 `;
 
-const QuizItem = ({ title, slug, body, url, index }) => {
-  const colors = ['yellow.50', 'green.50', 'red.50', 'purple.50'];
-
+const QuizItem = ({ title, slug, body, url }) => {
   return (
-    <QuizPostContainer bg={colors[index % 3]} p={6}>
+    <QuizPostContainer bg="gray.50" p={6}>
       <Heading as="h2" fontSize="2xl" mb={3}>
         <Link to={slug} backTo={url}>
           {title}
