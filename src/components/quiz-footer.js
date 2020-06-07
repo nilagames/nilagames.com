@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
-import { Box, Text, Flex } from '@chakra-ui/core';
+import { Box, Text, Flex, Button } from '@chakra-ui/core';
 import { QuizContext } from '../contexts/QuizContext';
 import { UrlContext } from '../contexts/UrlContext';
 
@@ -17,37 +17,6 @@ const FooterContainer = styled(Box)`
 const Feedback = styled(Box)`
   color: black;
   font-size: 2rem;
-`;
-
-// a button can't have a Link as a child
-const ContinueButton = styled(Box)`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  font-weight: 400;
-  border-radius: 30px;
-  padding: 0.7rem 2rem 0.7rem 2rem;
-  margin: 1rem 0;
-  cursor: pointer;
-  color: black;
-  text-decoration: none;
-  border: 2px solid;
-`;
-
-// a div cannot have the disabled property
-const AnswerButton = styled(Box)`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.7rem 2rem 0.7rem 2rem;
-  margin: 1rem 0;
-  border: 2px solid;
-  font-size: 1rem;
-  text-decoration: none;
-  border-radius: 30px;
-  background-color: white;
-  cursor: pointer;
 `;
 
 const text = {
@@ -85,40 +54,61 @@ const QuizFooter = ({ next }) => {
       }
     >
       <Flex
-        w="600px"
+        maxW={['auto', '600px']}
         m="0 auto"
-        minH={['auto', '200px']}
+        minH={['auto', '150px']}
         justifyContent="center"
         alignItems="center"
+        p={6}
       >
         {!answered && <Feedback />}
         {answered && correct && (
-          <Feedback color="green.600">
-            <Text>{text.feedback.correct}</Text>
+          <Feedback>
+            <Text color="green.800">{text.feedback.correct}</Text>
           </Feedback>
         )}
         {answered && !correct && (
-          <Feedback color="red.600">
-            <Text>{text.feedback.incorrect}</Text>
+          <Feedback>
+            <Text color="red.800">{text.feedback.incorrect}</Text>
           </Feedback>
         )}
         <Box ml="auto" alignSelf="center">
           {!answered ? (
-            <AnswerButton
-              as="button"
+            <Button
+              variantColor="pink"
+              fontSize="0.8rem"
+              lineHeight="1"
+              textTransform="uppercase"
+              size="lg"
               disabled={selected === '' ? true : false}
               onClick={handleSubmit}
             >
               {text.answerButton.answer}
-            </AnswerButton>
+            </Button>
           ) : answered && next ? (
-            <ContinueButton as={Link} to={next}>
-              {text.answerButton.continue}
-            </ContinueButton>
+            <Link to={next}>
+              <Button
+                variantColor={correct ? 'green' : 'red'}
+                fontSize="0.8rem"
+                lineHeight="1"
+                textTransform="uppercase"
+                size="lg"
+              >
+                {text.answerButton.continue}
+              </Button>
+            </Link>
           ) : (
-            <ContinueButton as={Link} to={url}>
-              {text.answerButton.end}
-            </ContinueButton>
+            <Link to={url}>
+              <Button
+                variantColor={correct ? 'green' : 'red'}
+                fontSize="0.8rem"
+                lineHeight="1"
+                textTransform="uppercase"
+                size="lg"
+              >
+                {text.answerButton.end}
+              </Button>
+            </Link>
           )}
         </Box>
       </Flex>

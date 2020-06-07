@@ -11,7 +11,7 @@ import { Link } from 'gatsby';
 
 const HeroButton = ({ buttonText }) => (
   <Button
-    variantColor="red"
+    variantColor="pink"
     size="lg"
     fontSize="0.9rem"
     lineHeight="1"
@@ -122,7 +122,7 @@ export const HeroWithImage = (props) => {
               {isExternalLink ? (
                 <ChakraLink href={buttonLink} isExternal>
                   <Button
-                    variantColor="red"
+                    variantColor="pink"
                     size="lg"
                     lineHeight="1"
                     textTransform="uppercase"
@@ -133,7 +133,7 @@ export const HeroWithImage = (props) => {
               ) : (
                 <Link to={buttonLink}>
                   <Button
-                    variantColor="red"
+                    variantColor="pink"
                     size="lg"
                     lineHeight="1"
                     textTransform="uppercase"

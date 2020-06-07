@@ -5,9 +5,7 @@ import styled from '@emotion/styled';
 import { UrlContext } from '../contexts/UrlContext';
 
 const Close = styled.div`
-  position: absolute;
-  right: 20px;
-  top: 20px;
+  position: relative;
   width: 32px;
   height: 32px;
 

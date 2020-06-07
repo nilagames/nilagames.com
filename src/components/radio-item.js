@@ -10,6 +10,7 @@ const Label = styled(Box)`
   cursor: pointer;
   font-size: 1.1rem;
 `;
+
 const Input = styled.input`
   outline: none;
   cursor: pointer;

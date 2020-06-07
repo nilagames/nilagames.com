@@ -1,14 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
-import {
-  Flex,
-  Box,
-  Button,
-  Heading,
-  Link as ChakraLink,
-} from '@chakra-ui/core';
+import { Flex, Box, Button, Link as ChakraLink } from '@chakra-ui/core';
 import { SocialIcon } from 'react-social-icons';
+import LogoText from './logo-text';
 
 const StyledHeader = styled('header')`
   max-width: 960px;
@@ -26,7 +21,7 @@ const NavList = styled(Flex)`
   list-style: none;
   margin: 0;
   align-items: center;
-  height: 80px;
+  min-height: 80px;
 `;
 
 const NavItem = styled(Box)`
@@ -46,8 +41,6 @@ const StyledChakraLink = styled(ChakraLink)`
   }
 `;
 
-const LogoContainer = styled(Box)``;
-
 const socialIconStyle = {
   width: `30px`,
   height: `30px`,
@@ -66,18 +59,9 @@ const Header = () => {
     <StyledHeader>
       <nav>
         <NavList as="ul">
-          <LogoContainer m={0} as="li" mr="auto">
-            <Link to="/">
-              <Heading as="h4" fontSize="1.6rem">
-                <Box as="span" color="red.600">
-                  nila
-                </Box>
-                <Box as="span" color="green.500">
-                  games
-                </Box>
-              </Heading>
-            </Link>
-          </LogoContainer>
+          <Box m={0} as="li" mr="auto">
+            <LogoText />
+          </Box>
           {links.map((link) => {
             return (
               <NavItem
@@ -92,7 +76,7 @@ const Header = () => {
                     {link.isExternal ? (
                       <StyledChakraLink href={link.href} isExternal>
                         <Button
-                          variantColor="red"
+                          variantColor="pink"
                           fontSize="0.8rem"
                           lineHeight="1"
                           textTransform="uppercase"
@@ -104,7 +88,7 @@ const Header = () => {
                     ) : (
                       <Link to={link.href}>
                         <Button
-                          variantColor="red"
+                          variantColor="pink"
                           fontSize="0.8rem"
                           lineHeight="1"
                           textTransform="uppercase"
@@ -152,7 +136,7 @@ export const Footer = (props) => {
         <Flex alignItems="center">
           <Box>
             <Box as="p" lineHeight="1.2">
-              Made with ❤️ for kids education
+              Made with ❤️ for kids
             </Box>
             <Box as="p" color="gray.400" fontSize="0.9rem">
               All rights reserved to <i>learnwithparam.com</i>

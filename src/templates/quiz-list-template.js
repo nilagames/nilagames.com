@@ -1,23 +1,27 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { graphql } from 'gatsby';
-import { Box } from '@chakra-ui/core';
+import { graphql, Link } from 'gatsby';
+import { Box, Flex, Button } from '@chakra-ui/core';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import QuizList from '../components/quiz-list';
-import { Container, ButtonLink } from '../components/common-styles';
+
+const Container = styled(Box)`
+  max-width: 960px;
+  margin: 0 auto;
+`;
 
 const StyledQuizContainer = styled(Box)`
   min-height: calc(100vh - 210px);
 `;
 
-const PrevNextPageContainer = styled.section`
+const PrevNextPageContainer = styled(Flex)`
   display: flex;
   justify-content: space-between;
 `;
 
-const PrevNextItem = styled.div`
+const PrevNextItem = styled(Box)`
   margin-bottom: 3rem;
   display: flex;
   @media (max-width: 575.98px) {
@@ -54,22 +58,40 @@ class QuizListTemplate extends React.Component {
           title={tag || 'Quiz page'}
           keywords={['Quiz for kids', 'Daily habits for kids']}
         />
-        <StyledQuizContainer bg="gray.50" py={6}>
+        <StyledQuizContainer bg="gray.50" p={6}>
           <QuizList posts={posts} url={pageUrl} />
           <Container>
             <PrevNextPageContainer>
               <PrevNextItem>
                 {!isFirst && (
-                  <ButtonLink to={prevPage} rel="prev">
-                    ← Previous Page
-                  </ButtonLink>
+                  <Link to={prevPage} rel="prev">
+                    <Button
+                      variantColor="pink"
+                      lineHeight="1"
+                      textTransform="uppercase"
+                      borderRadius="30px"
+                      my={2}
+                      size="lg"
+                    >
+                      ← Previous Page
+                    </Button>
+                  </Link>
                 )}
               </PrevNextItem>
               <PrevNextItem>
                 {!isLast && (
-                  <ButtonLink to={nextPage} rel="next">
-                    Next Page →
-                  </ButtonLink>
+                  <Link to={nextPage} rel="next">
+                    <Button
+                      variantColor="pink"
+                      lineHeight="1"
+                      textTransform="uppercase"
+                      borderRadius="30px"
+                      my={2}
+                      size="lg"
+                    >
+                      Next Page →
+                    </Button>
+                  </Link>
                 )}
               </PrevNextItem>
             </PrevNextPageContainer>

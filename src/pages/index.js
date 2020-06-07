@@ -30,7 +30,7 @@ const Page = (props) => {
             title="Create learning habits among kids"
             description="Nila asks 3 questions everyday to kids. Its helps them to learn different topics outside their book. Also helps them to build a daily learning habits."
             HeroImage={HeroImage}
-            hasButton={false}
+            hasButton={true}
             buttonText="Get started"
             buttonLink="/"
           />

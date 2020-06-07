@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import { Box, Flex, Heading, Text } from '@chakra-ui/core';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
+import LogoText from '../components/logo-text';
 import { QuizContextProvider } from '../contexts/QuizContext';
 import MCQ from '../components/mcq';
 import CloseButton from '../components/close-button';
@@ -22,6 +23,11 @@ const QuizFooterContainer = styled(Box)`
   right: 0;
 `;
 
+const StyledHeader = styled(Flex)`
+  max-width: 960px;
+  margin: 0 auto;
+`;
+
 const QuizTemplate = ({ data, pageContext }) => {
   const { body } = data.mdx;
   const { answers, title } = data.mdx.frontmatter;
@@ -30,12 +36,24 @@ const QuizTemplate = ({ data, pageContext }) => {
   return (
     <>
       <SEO title="Quiz" keywords={['Quiz for kids', 'Daily habits for kids']} />
+      <StyledHeader
+        as="header"
+        w="100%"
+        bg="white"
+        minH="80px"
+        px={5}
+        alignItems="center"
+      >
+        <Box>
+          <LogoText />
+        </Box>
+        <Box ml="auto">
+          <CloseButton />
+        </Box>
+      </StyledHeader>
       <Box bg="gray.50" minH="calc(100vh)">
         <Container py="100px">
-          <Flex alignItems="center" flexDirection="column">
-            <Box ml="auto">
-              <CloseButton />
-            </Box>
+          <Flex alignItems="center" flexDirection="column" p={6}>
             <Box w="100%" maxW="720px" marginBottom={['0', '200px']}>
               <QuizContextProvider>
                 <Heading

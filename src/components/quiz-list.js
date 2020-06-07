@@ -1,9 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
+import { Box } from '@chakra-ui/core';
 
 import QuizItem from '../components/quiz-item';
-import { Container } from '../components/common-styles';
+
+const Container = styled(Box)`
+  max-width: 960px;
+  margin: 0 auto;
+`;
 
 const QuizWrapper = styled.div`
   padding: 2rem 0;

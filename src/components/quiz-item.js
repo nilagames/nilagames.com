@@ -6,12 +6,10 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Link from './quiz-link';
 
 const QuizPostContainer = styled(Box)`
-  padding: 2rem 4rem;
   border-radius: 6px;
   margin-bottom: 1.5rem;
   transition: all 0.2s ease-in;
-  box-shadow: rgba(46, 41, 51, 0.08) 0px 4px 16px,
-    rgba(71, 63, 79, 0.16) 0px 8px 24px;
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1);
   &:hover {
     transform: translateY(-4px);
   }
@@ -29,10 +27,10 @@ const QuizPostContainer = styled(Box)`
 `;
 
 const QuizItem = ({ title, slug, body, url, index }) => {
-  const colors = ['purple.100', 'gray.100', 'orange.100', 'green.100'];
+  const colors = ['yellow.50', 'green.50', 'red.50', 'purple.50'];
 
   return (
-    <QuizPostContainer bg={colors[index % 3]}>
+    <QuizPostContainer bg={colors[index % 3]} p={6}>
       <Heading as="h2" fontSize="2xl" mb={3}>
         <Link to={slug} backTo={url}>
           {title}
@@ -43,11 +41,11 @@ const QuizItem = ({ title, slug, body, url, index }) => {
       </Text>
       <Link to={slug} backTo={url}>
         <Button
-          variantColor="red"
+          variantColor="pink"
           lineHeight="1"
           textTransform="uppercase"
-          borderRadius="20px"
           my={2}
+          size="sm"
         >
           Answer →
         </Button>
