@@ -8,7 +8,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        image: file(relativePath: { eq: "hero.png" }) {
+        image: file(relativePath: { eq: "learn.png" }) {
           childImageSharp {
             fluid(maxWidth: 960) {
               ...GatsbyImageSharpFluid

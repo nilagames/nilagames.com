@@ -8,7 +8,7 @@ import Card from '../components/card';
 import Link from '../components/quiz-link';
 import Hero, { HeroWithImage } from '../components/hero';
 import {
-  HeroImage,
+  LearnImage,
   SayHiImage,
   SequenceImage,
   MathsImage,
@@ -29,7 +29,7 @@ const Page = (props) => {
           <HeroWithImage
             title="Create learning habits among kids"
             description="Nila asks 3 questions everyday to kids. Its helps them to learn different topics outside their book. Also helps them to build a daily learning habits."
-            HeroImage={HeroImage}
+            HeroImage={LearnImage}
             hasButton={true}
             buttonText="Get started"
             buttonLink="/"
