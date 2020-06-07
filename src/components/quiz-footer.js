@@ -21,9 +21,9 @@ const Feedback = styled(Box)`
 
 const text = {
   answerButton: {
-    answer: 'ANSWER',
-    continue: 'CONTINUE',
-    end: 'END',
+    answer: 'Answer',
+    continue: 'Continue',
+    end: 'End the quiz',
   },
   feedback: {
     correct: 'Correct!',
@@ -97,19 +97,26 @@ const QuizFooter = ({ next }) => {
                 {text.answerButton.continue}
               </Button>
             </Link>
-          ) : (
-            <Link to={url}>
-              <Button
-                variantColor={correct ? 'green' : 'red'}
-                fontSize="0.8rem"
-                lineHeight="1"
-                textTransform="uppercase"
-                size="lg"
-              >
-                {text.answerButton.end}
-              </Button>
-            </Link>
-          )}
+          ) : null}
+          <Link to={url}>
+            <Button
+              ml={2}
+              variant="outline"
+              variantColor={
+                answered && correct
+                  ? 'green'
+                  : answered && !correct
+                  ? 'red'
+                  : 'pink'
+              }
+              fontSize="0.8rem"
+              lineHeight="1"
+              textTransform="uppercase"
+              size="lg"
+            >
+              {text.answerButton.end}
+            </Button>
+          </Link>
         </Box>
       </Flex>
     </FooterContainer>
