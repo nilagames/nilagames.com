@@ -54,7 +54,7 @@ const QuizFooter = ({ next }) => {
       }
     >
       <Flex
-        maxW={['auto', '600px']}
+        maxW={['auto', '720px']}
         m="0 auto"
         minH={['auto', '150px']}
         justifyContent="center"

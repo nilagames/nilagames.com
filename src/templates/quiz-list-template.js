@@ -60,42 +60,44 @@ class QuizListTemplate extends React.Component {
         />
         <StyledQuizContainer bg="green.100" p={6}>
           <QuizList posts={posts} url={pageUrl} />
-          <Container>
-            <PrevNextPageContainer>
-              <PrevNextItem>
-                {!isFirst && (
-                  <Link to={prevPage} rel="prev">
-                    <Button
-                      variantColor="pink"
-                      lineHeight="1"
-                      textTransform="uppercase"
-                      borderRadius="30px"
-                      my={2}
-                      size="lg"
-                    >
-                      ← Previous Page
-                    </Button>
-                  </Link>
-                )}
-              </PrevNextItem>
-              <PrevNextItem>
-                {!isLast && (
-                  <Link to={nextPage} rel="next">
-                    <Button
-                      variantColor="pink"
-                      lineHeight="1"
-                      textTransform="uppercase"
-                      borderRadius="30px"
-                      my={2}
-                      size="lg"
-                    >
-                      Next Page →
-                    </Button>
-                  </Link>
-                )}
-              </PrevNextItem>
-            </PrevNextPageContainer>
-          </Container>
+          {(!isFirst || !isLast) && (
+            <Container>
+              <PrevNextPageContainer>
+                <PrevNextItem>
+                  {!isFirst && (
+                    <Link to={prevPage} rel="prev">
+                      <Button
+                        variantColor="pink"
+                        lineHeight="1"
+                        textTransform="uppercase"
+                        borderRadius="30px"
+                        my={2}
+                        size="lg"
+                      >
+                        ← Previous Page
+                      </Button>
+                    </Link>
+                  )}
+                </PrevNextItem>
+                <PrevNextItem>
+                  {!isLast && (
+                    <Link to={nextPage} rel="next">
+                      <Button
+                        variantColor="pink"
+                        lineHeight="1"
+                        textTransform="uppercase"
+                        borderRadius="30px"
+                        my={2}
+                        size="lg"
+                      >
+                        Next Page →
+                      </Button>
+                    </Link>
+                  )}
+                </PrevNextItem>
+              </PrevNextPageContainer>
+            </Container>
+          )}
         </StyledQuizContainer>
       </Layout>
     );
