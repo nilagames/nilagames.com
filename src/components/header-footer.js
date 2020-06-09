@@ -48,9 +48,16 @@ const socialIconStyle = {
 
 const links = [
   {
-    href: '/',
-    value: "Today's Challenge",
-    type: 'button',
+    href: '/numbers',
+    value: 'Numbers',
+  },
+  {
+    href: '/math-puzzles',
+    value: 'Math Puzzles',
+  },
+  {
+    href: '/logical-puzzles',
+    value: 'Logical Puzzles',
   },
 ];
 
