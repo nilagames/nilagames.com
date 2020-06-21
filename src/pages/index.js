@@ -72,7 +72,7 @@ const Page = (props) => {
           <Link to="/words">
             <Card
               bg="teal.100"
-              title="Improve Vocabulary"
+              title="Vocabulary"
               description="Make sentences using words and learn english"
             />
           </Link>
