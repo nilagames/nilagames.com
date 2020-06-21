@@ -67,14 +67,18 @@ const QuizTemplate = ({ data, pageContext }) => {
                 <Text fontSize="20px" my="40px" as="section">
                   <MDXRenderer>{body}</MDXRenderer>
                 </Text>
-                <MCQ
-                  answers={answers}
-                  next={next && next.fields.quizSlug}
-                  prev={prev && prev.fields.quizSlug}
-                />
-                <QuizFooterContainer>
-                  <QuizFooter next={next && next.fields.quizSlug} />
-                </QuizFooterContainer>
+                {answers && (
+                  <>
+                    <MCQ
+                      answers={answers}
+                      next={next && next.fields.quizSlug}
+                      prev={prev && prev.fields.quizSlug}
+                    />
+                    <QuizFooterContainer>
+                      <QuizFooter next={next && next.fields.quizSlug} />
+                    </QuizFooterContainer>
+                  </>
+                )}
               </QuizContextProvider>
             </Box>
           </Flex>

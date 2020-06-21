@@ -69,6 +69,13 @@ const Page = (props) => {
               description="Puzzles that examine your logical reasoning skills"
             />
           </Link>
+          <Link to="/words">
+            <Card
+              bg="teal.100"
+              title="Improve Vocabulary"
+              description="Make sentences using words and learn english"
+            />
+          </Link>
         </Grid>
       </Container>
       <Box bg="gray.50">
