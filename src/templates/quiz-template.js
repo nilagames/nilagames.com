@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { graphql } from 'gatsby';
-import { Box, Flex, Heading, Text } from '@chakra-ui/core';
+import { Box, Flex, Heading, Text, Alert, AlertIcon } from '@chakra-ui/core';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import LogoText from '../components/logo-text';
@@ -67,7 +67,7 @@ const QuizTemplate = ({ data, pageContext }) => {
                 <Text fontSize="20px" my="40px" as="section">
                   <MDXRenderer>{body}</MDXRenderer>
                 </Text>
-                {answers && (
+                {answers ? (
                   <>
                     <MCQ
                       answers={answers}
@@ -77,6 +77,15 @@ const QuizTemplate = ({ data, pageContext }) => {
                     <QuizFooterContainer>
                       <QuizFooter next={next && next.fields.quizSlug} />
                     </QuizFooterContainer>
+                  </>
+                ) : (
+                  <>
+                    <Alert status="info" variant="left-accent">
+                      <AlertIcon />
+                      Open questions doesn't have choices. There is no one
+                      correct answers for such questions. It is more for
+                      practicing your skills.
+                    </Alert>
                   </>
                 )}
               </QuizContextProvider>

@@ -12,7 +12,7 @@ export default function CloseButton() {
       fontSize="0.8rem"
       lineHeight="1"
       textTransform="uppercase"
-      size="lg"
+      size="md"
       rightIcon="close"
       onClick={() => navigate(url)}
     >
