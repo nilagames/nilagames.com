@@ -32,7 +32,7 @@ const createQuizPages = (createPage, posts, url, tag) => {
     `./src/templates/quiz-list-template.js`
   );
 
-  const postsPerPage = 4; // This number decides the pagination
+  const postsPerPage = 10; // This number decides the pagination
   const numPages = Math.ceil(posts.length / postsPerPage);
 
   Array.from({ length: numPages }).forEach((_, i) => {
