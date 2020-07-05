@@ -76,6 +76,13 @@ const Page = (props) => {
               description="Make sentences using words and learn english"
             />
           </Link>
+          <Link to="/dialogues">
+            <Card
+              bg="purple.100"
+              title="Dialogues"
+              description="Create english conversations"
+            />
+          </Link>
         </Grid>
       </Container>
       <Box bg="gray.50">
